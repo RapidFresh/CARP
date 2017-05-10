@@ -21,7 +21,7 @@
     </div>
 
     <div class="tableuse">
-        <asp:Label ID="Autilizadores" runat="server" Font-Size="Larger" CssClass="colortitle" Text="Adicionar Utilizadores"></asp:Label>
+        <asp:Label ID="Autilizadores" runat="server" Font-Size="Larger" CssClass="colortitle" Text="Adicionar  Utilizadores"></asp:Label>
         <br />
         <br />
 
