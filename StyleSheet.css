@@ -1,0 +1,565 @@
+﻿body {
+    /*background-color: white;*/
+    position:relative;
+    background-color: white;
+    /*background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100% 100%;*/
+    width:100%;
+    height:100%;
+    margin-bottom: 35px;
+    /*height: 1700px;*/
+    margin: 0;
+    /*font-family: 'Roboto', sans-serif;
+    font-family: "IgraSans";*/
+    font-family: 'Lato', sans-serif;
+}
+
+@font-face { 
+    font-family: 'Lato', sans-serif;
+    /*font-family: "IgraSans";
+    src: url('fonts/IgraSans.otf');*/
+
+}
+
+div{
+   display: block;
+}
+
+.discount{
+    position: absolute;
+    background-color: yellow;
+    margin-right: 5px;
+    margin-top: 2px;
+    float:right;
+    width: auto;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.new{
+    position: absolute;
+    background-color: #4d94ff;
+    margin-right: 5px;
+    margin-top: 2px;
+    float:right;
+    width: auto;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+
+.tcenter{
+    text-align:center;
+}
+
+/*.content {
+    margin-top: 0px;
+    height:80%;
+    width:100%
+}*/
+
+
+
+.bottom{
+    margin-bottom:2%
+}
+
+#form1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    min-width:540px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: /*#333*/ #404040;
+    /*border: 1px solid black;*/
+}
+
+li {
+    float: left;
+    /*border-right:1px solid #346a86;*/
+    font-family: 'Lato', sans-serif;
+    /*font-family: "IgraSans";*/
+    font-size: large;
+        
+}
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        display: block;
+        color: #346a86;
+        text-align: center;
+        padding: 5px 16px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    li a:hover {
+        transition: color 0.1s;
+        transition: background-color 0.1s;
+        background-color: #404040;
+        color: rgb(0, 174, 238);
+    }
+
+td{
+    padding: 0;
+}
+
+.register {
+    background-color: white;
+    opacity:1;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 39%;
+    border-radius: 2px;
+    float:left;
+    border: 2px solid #346a86;
+    height: 53%;
+    min-height:53%;
+    width: 21%;
+    min-width:150px;
+    background-color: white;
+    box-shadow: 2px 4px 5px black;
+}
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);*/	
+
+.catadmin {
+    position: relative;
+    padding: 5px 5px 5px 5px;
+    margin-top: 2%;
+    margin-left: 6%;
+    float:left;
+    border-radius: 2px;
+    border: 2px solid #346a86;
+    height: auto;
+    width: 10%;
+    min-width:275px;
+    background-color: white;
+    box-shadow: 2px 4px 5px black;
+}
+.tableuse {
+    position: relative;
+    padding: 5px 5px 5px 5px;
+    margin-top: 3%;
+    margin-left: 6%;
+    float:left;
+    border-radius: 2px;
+    border: 2px solid #346a86;
+    height: auto;
+    width: auto;
+    /*min-width:350px;*/  
+    background: rgba(19, 35, 47, 0.9);
+    box-shadow: 2px 4px 5px black;
+}
+
+.lefttable{
+    position: relative;
+    padding: 5px 5px 5px 5px;
+    margin-top: 3%;
+    margin-left: 6%;
+    float:left;
+    border-radius: 2px;
+    border: 2px solid #346a86;
+    height: 600px;
+    width: 200px;
+    /*min-width:350px;*/
+    background-color: white;
+    box-shadow: 2px 4px 5px black;
+}
+
+.table{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 6%;
+    float:left;
+    border-radius: 2px;
+    border: 2px solid #346a86;
+    height: auto;
+    width: auto;
+    /*overflow: auto;*/
+    /*min-width:350px;*/
+    background-color: white;
+    box-shadow: 2px 4px 5px black;0.3);
+}
+
+#ContentPlaceHolder1_btnentrar{
+    margin-bottom: 0%;
+    width: 20%;
+    height: 10%;
+    /*border: 1px solid #346a86;*/
+}
+#ContentPlaceHolder1_btnregistar{
+    margin-bottom: 0%;
+    width: 20%;
+    height: 10%;
+    /*border: 1px solid #346a86;*/
+}
+
+#ContentPlaceHolder1_txt_idade0{
+    margin-left: -3.6%;
+}
+#ContentPlaceHolder1_txt_idade1{
+    margin-left: -3.6%;
+}
+
+#ContentPlaceHolder1_txt_name2{
+    margin-left: -3.8%;
+}
+
+
+.homemain{
+    z-index:-1;
+    width:100%;
+    margin-top:-500px;
+    height:1000px;
+    background-image: url("../img/techblue.png");
+    filter: brightness(40%);
+    position:fixed;
+}
+
+.mini img{
+    width:360px;
+}
+
+.marca img{
+    width:360px;
+}
+
+.maintop{
+    margin-top:500px;
+    background-color:blue
+}
+
+.backff{
+    background-color: #ffffff;
+}
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+}
+
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+/* remember to define visible focus styles! 
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+.productlist{
+    margin: 0 auto;
+	width: 90%;
+	max-width: 1240px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f6f6f6;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 28px;
+	font-weight: 300;
+	flex: 1;
+}
+
+h5 {
+	font-weight: 500;
+	line-height: 1.7em;
+}
+
+h6 {
+	color: #666;
+	font-size: 14px;
+}
+
+/* Product Layout */
+
+.product-filter {
+	display: flex;
+	padding: 30px 0;
+}
+
+.sort {
+	display: flex;
+	align-self: flex-end;
+}
+
+.collection-sort {
+ display: flex;
+	flex-direction: column;
+}
+
+.collection-sort:first-child {
+	padding-right: 20px;
+}
+
+label {
+	color: #666;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product-card {
+	display: flex;
+	flex-direction: column;
+	
+	padding: 2%;
+	flex: 1 16%;
+	
+	background-color: #FFF;
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+}
+
+.product-image img {
+	width: 100%;
+}
+
+.product-info {
+	margin-top: auto;
+	padding-top: 20px;
+	text-align: center;
+}
+
+@media ( max-width: 920px ) {
+	
+	.product-card {
+		flex: 1 21%;
+	}
+	
+	.products .product-card:first-child, 
+	.products .product-card:nth-child(2) {
+		flex: 2 46%;
+	}
+	
+}
+
+@media ( max-width: 600px ) {
+	
+	.product-card {
+		flex: 1 46%;
+	}
+	
+}
+
+@media ( max-width: 480px ) {
+	
+	h1 {
+		margin-bottom: 20px;
+	}
+	
+	.product-filter {
+		flex-direction: column;
+	}
+	
+	.sort {
+		align-self: flex-start;
+	}
+	
+}
+
+/*Login------------------------------------------------------------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4d94ff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #4d94ff;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4d94ff;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+/*Products Display__________________________________________________________________________________________________________________________________________________________________________*/
+
+.produtos{
+    padding: 7px 4px 7px 7px;
+    position: relative;
+    margin: 40px auto;
+    margin-top: 3%;
+    width: /*100%*/1200px;
+    float: left;
+    border: solid 1px black;
+
+}
+
+.display{
+    float:left;
+    background-color:transparent;
+    width: 150px;
+    height: 228px;
+}
+
+.displayimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:180px;
+    height:190px;
+}
+
+table b, .nome{
+    display: inline-block;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
