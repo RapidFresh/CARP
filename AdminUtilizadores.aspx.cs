@@ -62,6 +62,7 @@ public partial class AdminUtilizadores : System.Web.UI.Page
             Paises.Text = "";
             txtrua.Text = "";
             txtdinheiro.Text = "";
+            txtcidade.Text = "";
             txtdistrito.Text = "";
             txtcp1.Text = "";
             txtcont.Text = "";
@@ -72,5 +73,15 @@ public partial class AdminUtilizadores : System.Web.UI.Page
         {
             Response.Write("O email inserido já pertence a uma conta existente.");
         }
+
+
     }
+        protected void goutilizadores_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("_AdminUtilizadores.aspx");
+        }
+        protected void goprodutos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AdminProdutos.aspx");
+        }
 }

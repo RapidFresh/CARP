@@ -2,6 +2,19 @@
     $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
 });
 $(document).ready(function () {
+    var formwidth = $('.container').width() - 180;
+    $(".loginbutton").click(function () {
+        $('.login-page').css('display', 'inherit');
+        $(".form").animate({
+            left: formwidth,
+        }, 1000);
+        $(".login-page").animate({
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        });
+            
+    });
+
+
 
     $(".topgo").click(function () {
         $("html, body").animate({ scrollTop: 0 }, "slow");
@@ -64,5 +77,7 @@ $(document).ready(function () {
         },
             'slow');
     });
+
+    
     
 });

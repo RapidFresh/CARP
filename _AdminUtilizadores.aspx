@@ -10,18 +10,14 @@
 
         <asp:Button ID="goutilizadores" class="catadminbutton" runat="server" Text="Utilizadores" />
         <br />
-        <asp:Button ID="gotelemoveis" class="catadminbutton" runat="server" Text="Telemoveis" />
-        <br />
-        <asp:Button ID="gotablets" class="catadminbutton" runat="server" Text="Tablets" />
-        <br />
-        <asp:Button ID="goacesorios" class="catadminbutton" runat="server" Text="Acessorios" />
+        <asp:Button ID="goprodutos" class="catadminbutton" runat="server" Text="Produtos" />
         <br />
         <asp:Button ID="gomarca" class="catadminbutton" runat="server" Text="Marcas" />
 
     </div>
 
     <div class="tableuse">
-        <asp:Label ID="Autilizadores" runat="server" Font-Size="Larger" CssClass="colortitle" Text="Adicionar  Utilizadores"></asp:Label>
+        <asp:Label ID="Autilizadores" runat="server" Font-Size="Larger" CssClass="colortitle" Text="Adicionar Utilizador"></asp:Label>
         <br />
         <br />
 

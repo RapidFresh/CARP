@@ -55,13 +55,27 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <%--<div class="login-page">
+            <div class="form">
+                <form class="login-form" runat="server">
+                    <asp:TextBox ID="txt_email" type="email" placeholder="Email" runat="server" ></asp:TextBox>
+                    <asp:TextBox ID="txt_pass"  type="password" placeholder="Palavra-Passe" runat="server" ></asp:TextBox>
+                    <p class="message">Não tem uma conta? <a href="Register.aspx">Registar</a></p>
+                </form>
+            </div>
+        </div>--%>
+
     <form id="form1">
+
 
         <div class="headermine">
             <div class="logomine">
                 <a href="Home.aspx">
                     <img src="img/logo.png" /></a>
             </div>
+            
+            <div><a class="loginbutton">LOGIN</a></div>
+                    <input class="search" type="search" placeholder="Procurar">
         </div>
         <div class="cart cart box_1">
             <form action="#" method="post" class="last">
@@ -178,7 +192,9 @@
         </div>--%>
 
         <%--<div class="content">--%>
+        
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
         </asp:ContentPlaceHolder>
         <%--</div>--%>
 
@@ -278,7 +294,7 @@
                 }
             });
         </script>
-
+        <script type="text/javascript" src="JavaScript.js"></script>
         <!-- //cart-js -->
     </form>
 </body>

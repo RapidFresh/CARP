@@ -7,7 +7,6 @@
     <!-- banner -->
     <div class="banner">
         <div class="container">
-            <h3>Electronic Store, <span>Special Offers</span></h3>
         </div>
     </div>
     <!-- //banner -->
@@ -41,10 +40,10 @@
                     });
                 </script>
             </div>
-            <div class="col-md-7 wthree_banner_bottom_right">
+            <div class="col-md-7 wthree_banner_bottom_right" >
                 <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
                     <ul id="myTab" class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#home" id="home-tab" style="font-family: 'Roboto', sans-serif;" role="tab" data-toggle="tab" aria-controls="home">Telemoveis</a></li>
+                        <li role="presentation" class="active"><a href="#home" id="home-tab" style="font-family: 'Roboto', sans-serif;font-weight: 700;" role="tab" data-toggle="tab" aria-controls="home">Telemoveis</a></li>
                         <li role="presentation"><a href="#audio" style="font-family: 'Roboto', sans-serif;" role="tab" id="audio-tab" data-toggle="tab" aria-controls="audio">Tablets</a></li>
                         <li role="presentation"><a href="#video" style="font-family: 'Roboto', sans-serif;" role="tab" id="video-tab" data-toggle="tab" aria-controls="video">Acessorios</a></li>
                         <li role="presentation"><a href="#somepage" style="font-family: 'Roboto', sans-serif;">+ver mais</a></li>
@@ -169,12 +168,12 @@
     </div>
     <!-- //banner-bottom -->
     <!-- special-deals -->
-    <div class="special-deals" style="overflow: hidden;background-color: #ffffff;-webkit-box-shadow: inset 6px 6px 16px -3px rgba(0,0,0,0.75);-moz-box-shadow: inset 6px 6px 16px -3px rgba(0,0,0,0.75);box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.75);width: 99%;margin-left: 0.5%;/*background-image: url('/img/1511.jpg');*/">
+    <div class="special-deals" style="overflow: hidden;background-color: #232323;-webkit-box-shadow: inset 6px 6px 16px -3px rgba(0,0,0,0.75);-moz-box-shadow: inset 6px 6px 16px -3px rgba(0,0,0,0.75);box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.7);width: 100%;">
         <div class="container">
-            <h2>Ofertas Especiais</h2>
+            <h2 style="color:#ffffff">Ofertas Especiais</h2>
             <div class="w3agile_special_deals_grids">
                 <div class="col-md-7 w3agile_special_deals_grid_left">
-                    <div class="w3agile_special_deals_grid_left_grid" style="cursor: pointer; box-shadow: 5px 5px 4px grey;">
+                    <div class="w3agile_special_deals_grid_left_grid" style="cursor: pointer; box-shadow: 5px 5px 4px black;">
                         <img src="img/sli1.png" alt=" " class="img-responsive" style="filter: blur(2px);">
                         <div class="w3agile_special_deals_grid_left_grid_pos1">
                             <h5 style="font-size: 30px; margin-top: -20px;">-30%</h5>
@@ -190,7 +189,7 @@
                 </div>
                 <div class="col-md-5 w3agile_special_deals_grid_right_grid specialofferright" >
                     <a href="#">
-                        <img src="img/s8release.jpg" style="text-shadow: 2px 2px #ff0000; box-shadow: 5px 5px 4px grey; /*-webkit-filter: grayscale(50%); filter: grayscale(50%); */width: 400px; height: 248px;" alt=" " class="img-responsive" /></a>
+                        <img src="img/s8release.jpg" style="text-shadow: 2px 2px #ff0000; box-shadow: 5px 5px 4px black; /*-webkit-filter: grayscale(50%); filter: grayscale(50%); */width: 400px; height: 248px;" alt=" " class="img-responsive" /></a>
                     <div class="w3agile_special_deals_grid_right_pos">
                         <a href="#">
                             <h3 style="font-family: 'Roboto'; font-size: 30px; color: #f2f2f2; font-size: 30px;"><span>&nbsp</span></h3>
@@ -203,6 +202,7 @@
             </div>
         </div>
     </div>
+    <div class="editmargins"></div>
     <!-- //special-deals -->
     <!-- new-products -->
     <div class="new-products" style="background-color:#fff;">

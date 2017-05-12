@@ -63,7 +63,7 @@
                         <div class="pdesb">
                             <div class="pdis"><a class="uppercase"><%# Eval("Disponibilidade") %></a></div>
                             <div class="l20 pdes"><a><%# Eval("Descrição") %></a></div>
-                            <div class="l20 pcar"><a>Nome da cat:</a><a>Caracteristica 1</a></div>
+<%--                            <div class="l20 pcar"><a>Ecrã:</a><a><%# Eval("EcraDimensao") %>"</a></a></div>--%>
                             <div class="l20 pcar"><a>Nome da cat:</a><a>Caracteristica 2</a></div>
                             <div class="l20 pcar"><a>Nome da cat:</a><a>Caracteristica 3</a></div>
                             <div class="l20 pcar"><a>Nome da cat:</a><a>Caracteristica 4</a></div>
