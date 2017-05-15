@@ -6,7 +6,7 @@
 	<!-- banner -->
 	<div class="banner banner10">
 		<div class="container">
-			<h2 style="font-size:70px;color:#0094ff; text-shadow: 2px 2px #000000;font-family: 'Roboto', sans-serif;">Perguntas Populares</h2>
+			<h2 style="font-size:50px;color:#337ab7; text-shadow: 0px 0px 10px grey;font-family: 'Roboto', sans-serif;font-weight: 700;text-transform: uppercase;margin-left: -70px;margin-top: -20px;">Perguntas Populares</h2>
 		</div>
 	</div>
 	<!-- //banner -->    

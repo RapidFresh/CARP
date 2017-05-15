@@ -132,7 +132,7 @@
                                     <h5><span class="nome"><%# Eval("Marca") %>&nbsp;<%# Eval("Modelo") %></h5>
                                 </a>
                             </div>
-                            <div class="simpleCart_shelfItem" style="width: 73%; margin: 0px 13.5%">
+                            <div class="simpleCart_shelfItem" style="width: 80%; margin: 0px 13.5%">
                                 <p><span><%# Eval("Preço") %></span> <a class="item_price" style="font-size: 25px;"><%# ((decimal)Eval("Preço")-(decimal)Eval("Preço")*((decimal)(int)Eval("Desconto")/100)).ToString("N2") %></a></p>
                                 <form action="#" method="post">
                                     <input type="hidden" name="cmd" value="_cart" />

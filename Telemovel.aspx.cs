@@ -18,12 +18,23 @@ public partial class Telemovel : System.Web.UI.Page
             ListView1.DataSource = this.GetData();
             ListView1.DataBind();
         }
+
     }
+
+    public static class IdProduto
+    {
+        public static string idproduto { get; set; }
+    }
+
+
+    public static string simples;
+
+    int page = 1;
 
     private DataSet GetData()
     {
         string conString = ConfigurationManager.ConnectionStrings["CARP"].ConnectionString;
-        string query = "SELECT * FROM Utilizadores";
+        string query = "SELECT * FROM Produtos  WHERE TipoProdutoId='1' ORDER BY 'ID' OFFSET 0 ROWS FETCH NEXT 12 ROWS ONLY";
         SqlCommand cmd = new SqlCommand(query);
         using (SqlConnection con = new SqlConnection(conString))
         {

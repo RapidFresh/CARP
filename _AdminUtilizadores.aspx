@@ -8,9 +8,9 @@
   
     <div class="catadmin">
 
-        <asp:Button ID="goutilizadores" class="catadminbutton" runat="server" Text="Utilizadores" />
+        <asp:Button ID="goutilizadores" class="catadminbutton  buttonactive" runat="server" Text="Utilizadores" />
         <br />
-        <asp:Button ID="goprodutos" class="catadminbutton" runat="server" Text="Produtos" />
+        <asp:Button ID="goprodutos" class="catadminbutton" runat="server" OnClick="goprodutos_Click" Text="Produtos" />
         <br />
         <asp:Button ID="gomarca" class="catadminbutton" runat="server" Text="Marcas" />
 

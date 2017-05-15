@@ -17,8 +17,8 @@ public partial class Produtos : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
+            //ListView1.DataSource = this.GetDatatable2();
             ListView1.DataSource = this.GetData();
-            ListView1.DataSource = this.GetDatatable2();
             ListView1.DataBind();
         }
     }
@@ -36,7 +36,7 @@ public partial class Produtos : System.Web.UI.Page
     private DataSet GetData()
     {
         string conString = ConfigurationManager.ConnectionStrings["CARP"].ConnectionString;
-        string query = "SELECT * FROM Produtos WHERE Id= '" + Request.QueryString["Id"] + "'";
+        string query = "SELECT * FROM Produtos INNER JOIN Telemoveis on Produtos.Id = Telemoveis.Id WHERE Produtos.Id= '" + Request.QueryString["Id"] + "'";
         SqlCommand cmd = new SqlCommand(query);
         using (SqlConnection con = new SqlConnection(conString))
         {
@@ -53,23 +53,23 @@ public partial class Produtos : System.Web.UI.Page
         }
     }
 
-    private DataSet GetDatatable2()
-    {
-        string conString = ConfigurationManager.ConnectionStrings["CARP"].ConnectionString;
-        string query = "SELECT * FROM Produtos WHERE Id= '" + Request.QueryString["Id"] + "'";
-        SqlCommand cmd = new SqlCommand(query);
-        using (SqlConnection con = new SqlConnection(conString))
-        {
-            using (SqlDataAdapter sda = new SqlDataAdapter())
-            {
-                cmd.Connection = con;
-                sda.SelectCommand = cmd;
-                using (DataSet ds = new DataSet())
-                {
-                    sda.Fill(ds);
-                    return ds;
-                }
-            }
-        }
-    }
+    //private DataSet GetDatatable2()
+    //{
+    //        string conString = ConfigurationManager.ConnectionStrings["CARP"].ConnectionString;
+    //        string query = "SELECT * FROM Telemoveis WHERE Id= '" + Request.QueryString["Id"] + "'";
+    //        SqlCommand cmd = new SqlCommand(query);
+    //        using (SqlConnection con = new SqlConnection(conString))
+    //        {
+    //            using (SqlDataAdapter sda = new SqlDataAdapter())
+    //            {
+    //                cmd.Connection = con;
+    //                sda.SelectCommand = cmd;
+    //                using (DataSet ds = new DataSet())
+    //                {
+    //                    sda.Fill(ds);
+    //                    return ds;
+    //                }
+    //            }
+    //        }
+    //}
 }

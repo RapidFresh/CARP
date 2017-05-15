@@ -14,19 +14,29 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-    <div class="login-page">
         <div class="form">
             <form class="login-form" runat="server">
-                <asp:TextBox ID="txt_email" type="email" placeholder="Email" runat="server" ></asp:TextBox>
-                <asp:TextBox ID="txt_pass"  type="password" placeholder="Palavra-Passe" runat="server" ></asp:TextBox>
-                <%--<asp:TextBox ID="txt_pass2"  type="text" placeholder="Confirmar Palavra-Passe" runat="server" ></asp:TextBox>--%>
-                <%--<button id="btregister">Criar Conta</button>--%>
-               <%-- <asp:Button ID="btregister"  runat="server" Text="Criar Conta" OnClick="btnregister_Click" />--%>
-                <p class="message">Não tem uma conta? <a href="Register.aspx">Registar</a></p>
+                <div class="loginvis">
+                    <asp:TextBox ID="txt_email" type="email" placeholder="Email" runat="server" ></asp:TextBox>
+                    <asp:TextBox ID="txt_pass"  type="password" placeholder="Palavra-Passe" runat="server" ></asp:TextBox>
+                    <%--<asp:TextBox ID="txt_pass2"  type="text" placeholder="Confirmar Palavra-Passe" runat="server" ></asp:TextBox>--%>
+                    <%--<button id="btregister">Criar Conta</button>--%>
+                   <%-- <asp:Button ID="btregister"  runat="server" Text="Criar Conta" OnClick="btnregister_Click" />--%>
+                    <p class="message">Não tem uma conta? <a" style="color: #337ab7;cursor: pointer;">Registar</a></p>
+                </div>
 
+                <div class="registervis hide">
+                    <asp:TextBox ID="TextBox1" type="email" placeholder="Email" runat="server" ></asp:TextBox>
+                    <asp:TextBox ID="txt_nome"  type="text" placeholder="Primeiro Nome" runat="server" ></asp:TextBox>
+                    <asp:TextBox ID="txt_nome2" type="text" placeholder="Ultimo Nome" runat="server" ></asp:TextBox>
+                    <asp:TextBox ID="TextBox2"  type="text" placeholder="Palavra-Passe" runat="server" ></asp:TextBox>
+                    <%--<asp:TextBox ID="txt_pass2"  type="text" placeholder="Confirmar Palavra-Passe" runat="server" ></asp:TextBox>--%>
+                    <%--<button id="btregister">Criar Conta</button>--%>
+                    <asp:Button ID="btregister"  runat="server" Text="Criar Conta" OnClick="btnregister_Click" />
+                    <p class="message">Já tem uma conta? <a" style="color: #337ab7;cursor: pointer;">Entrar</a></p>
+                </div>
             </form>
         </div>
-    </div>
 
     <%--<div class="login-page">
         <div class="form">

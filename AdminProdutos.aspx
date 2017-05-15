@@ -8,7 +8,7 @@
 
         <asp:Button ID="goutilizadores" class="catadminbutton" runat="server" Text="Utilizadores" OnClick="goutilizadores_Click" />
         <br />
-        <asp:Button ID="goprodutos" class="catadminbutton" runat="server" Text="Produtos" OnClick="goprodutos_Click" />
+        <asp:Button ID="goprodutos" class="catadminbutton  buttonactive" runat="server" Text="Produtos" OnClick="goprodutos_Click" />
         <br />
         <asp:Button ID="gomarca" class="catadminbutton" runat="server" Text="Marcas" />
 
@@ -31,7 +31,7 @@
         <br />
         <asp:TextBox ID="txtdisponibilidade" placeholder="Disponibilidade" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
         <br />
-        <asp:TextBox ID="txtdesconto" placeholder="Desconto" CssClass="gimmyspace" runat="server" MaxLength="4" Width="100%"></asp:TextBox>
+        <asp:TextBox ID="txtdesconto" placeholder="Desconto" CssClass="gimmyspace" runat="server" MaxLength="3" Width="100%"></asp:TextBox>
         <br />
         <asp:FileUpload ID="iprod" style="" Width="100%" runat="server" />
         
@@ -45,7 +45,7 @@
             <br />
             <asp:TextBox ID="txtsimdual" placeholder="SIM Dual" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
-            <asp:TextBox ID="txtoperador" placeholder="Operador" CssClass="gimmyspace" runat="server" MaxLength="4" Width="100%"></asp:TextBox>
+            <asp:TextBox ID="txtoperador" placeholder="Operador" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
             <asp:TextBox ID="txtrede" placeholder="Rede" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
@@ -55,7 +55,7 @@
             <br />
             <asp:TextBox ID="txtecraresolucao" placeholder="Ecrã Resolução" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
-            <asp:TextBox ID="txtwifi" placeholder="WIFI" CssClass="gimmyspace" runat="server" MaxLength="4" Width="100%"></asp:TextBox>
+            <asp:TextBox ID="txtwifi" placeholder="WIFI" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
             <asp:TextBox ID="txtbluetooth" placeholder="Bluetooth" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
@@ -65,7 +65,7 @@
             <br />
             <asp:TextBox ID="txtcamararesolucao" placeholder="Camara Resolução" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
-            <asp:TextBox ID="txtcamaraflash" placeholder="Camara Flash" CssClass="gimmyspace" runat="server" MaxLength="4" Width="100%"></asp:TextBox>
+            <asp:TextBox ID="txtcamaraflash" placeholder="Camara Flash" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
             <asp:TextBox ID="txtcamara2" placeholder="Camara Secundaria" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
@@ -75,11 +75,11 @@
             <br />
             <asp:TextBox ID="txtdimensoes" placeholder="Dimensões" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
-            <asp:TextBox ID="txtpeso" placeholder="Peso" CssClass="gimmyspace" runat="server" MaxLength="4" Width="100%"></asp:TextBox>
+            <asp:TextBox ID="txtpeso" placeholder="Peso" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
             <asp:TextBox ID="txtcores" placeholder="Cor" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
-            <asp:TextBox ID="txtmemoriainterna" placeholder="Memoria Interna" CssClass="gimmyspace" runat="server" MaxLength="4" Width="100%"></asp:TextBox>
+            <asp:TextBox ID="txtmemoriainterna" placeholder="Memoria Interna" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />
             <asp:TextBox ID="txtmemoriaexterna" placeholder="Memoria Externa" CssClass="gimmyspace" runat="server" Width="100%"></asp:TextBox>
             <br />

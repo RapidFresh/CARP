@@ -14,6 +14,10 @@ $(document).ready(function () {
             
     });
 
+    $(".message").click(function () {
+        $(".loginvis").toggleClass('hide')
+        $(".registervis").toggleClass('hide');
+    });
 
 
     $(".topgo").click(function () {

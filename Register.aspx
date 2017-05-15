@@ -3,7 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div class="login-page">
         <div class="form">
             <form class="login-form" runat="server">
                 <asp:TextBox ID="txt_email" type="email" placeholder="Email" runat="server" ></asp:TextBox>
@@ -17,6 +16,5 @@
 
             </form>
         </div>
-    </div>
 </asp:Content>
 
